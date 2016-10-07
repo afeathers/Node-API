@@ -1,0 +1,30 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-db": "cd sql && ./build.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "bcrypt-nodejs": "latest",
+    "body-parser": "^1.14.2",
+    "connect-flash": "~0.1.1",
+    "express": "^4.13.4",
+    "express-session": "~1.13.0",
+    "morgan": "~1.0.0",
+    "passport": "^0.3.2",
+    "passport-local": "~1.0.0",
+    "pg": "^4.4.4",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.7",
+    "redis": "^2.6.0-1",
+    "sequelize": "^3.19.1",
+    "uuid": "^2.0.2"
+  }
+}
