@@ -10,3 +10,9 @@ This repo contains the following dependencies:
 - Postgres
 - Express
 - Redis
+
+
+Utilizes:
+
+- Parameterized SQL queries
+- Error reporting
