@@ -9,7 +9,7 @@ module.exports = {
 			password: '', 
 			host: 'localhost', 
 			port: 5432, 
-			db: 'ipi'
+			db: 'dbname'
 		},
 		redis: {
 			host: '127.0.0.1',
